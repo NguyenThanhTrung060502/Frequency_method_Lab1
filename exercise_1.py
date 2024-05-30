@@ -107,9 +107,9 @@ N_s = np.array([1, 2, 10, 20, 50])
 
 ## ======================= The periodic real-valued function f(t) with period equal to T =========================
 # f_1 = lambda t: a if t0 <= t % T < t1 else b
-# f_2 = lambda t: abs(np.sin(t)) + np.cos(t)**2
+# f_2 = lambda t: abs(np.sin(t)) + np.cos(t)
 # f_3 = lambda t: 2*np.sin(t)*np.cos(2*t)
-# f_4 = lambda t: np.cos(2*t) + np.sin(3*t)
+# f_4 = lambda t: np.cos(t)**2 + np.sin(3*t)
 
 
 ## ========================== The true function ================================
